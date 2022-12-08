@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-  <title>sentimen</title>
+  <title>Sentiment Analysis Application</title>
   
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.min.css'><link rel="stylesheet" href="static\css\chart.css">
   <script src="{{url_for("static", filename="pie_chart\script.js")}}"></script>
@@ -14,8 +14,7 @@
   <meta content="" name="keywords">
   <script src="{{url_for("static", filename="")}}"></script>
   <!-- Favicons -->
-  <link href="{{url_for("static", filename="img/favicon.png")}}" rel="icon">
-  <link href="{{url_for("static", filename="img/apple-touch-icon.png")}}" rel="apple-touch-icon">
+  <link href="{{url_for("static", filename="img/logo1.jpeg")}}" rel="icon">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.min.css'>
   <link rel="stylesheet" href="{{url_for("static", filename="pie_chart\style.css")}}">
   <!-- Google Fonts -->
@@ -61,8 +60,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>masukan kata kunci</h1>
-          <h2>silahkan masukan kata kunci</h2>
+          <h1>Masukan Kata Kunci</h1>
+          <h2>Silahkan Masukan Kata Kunci</h2>
           <main id="main">
             <div class="row footer-newsletter justify-content-center">
               <div class="col-lg-6">
@@ -72,9 +71,9 @@
             <div class="row footer-newsletter justify-content-center">
               <div class="d-flex">
                 <form role='form' action='/scrolling' method="POST">
-                  <input type="search" name="query" id='query' placeholder="masukan kata kunci">
+                  <input type="search" name="query" id='query' placeholder="Masukkan Kata Kunci">
                   <input  type="submit"
-                    value="submit">
+                    value="Submit">
                 </form>
               </div>
             </div>
